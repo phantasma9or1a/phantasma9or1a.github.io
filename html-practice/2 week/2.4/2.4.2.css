@@ -1,0 +1,73 @@
+header img {
+    width: 200px;
+    height: 60px;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+    padding: 7px;
+    height: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 30px;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: blueviolet;
+    background: #30D5C8;
+    text-align: center;
+}
+
+.posts {
+    width: 1000px;
+    height: 450px;
+    display: flex;
+}
+
+.mini_div {
+    float: left;
+    margin: 15px;
+    width: 250px;
+    text-align: justify;
+}
+
+main p {
+    font-size: 20px;
+}
+
+
+.image-row img{
+    display: inline-flex;
+    margin: 15px;
+    max-height: 250px;
+    width: 250px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #8fddf2;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
+
+.contact {
+    font-weight: bold;
+    font-style: italic;
+}

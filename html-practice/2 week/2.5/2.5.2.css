@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+th, td {
+    border: 2px solid slateblue;
+    padding: 8px;
+    text-align: left;
+    max-width: 115px;
+}
+
+tr:first-child {
+    background-color: lightblue;
+}
+
+td:first-child {
+    background-color: lightblue;
+}
+
+tr:last-child {
+    background-color: orange;
+}
