@@ -1,0 +1,65 @@
+header img {
+    height: 80px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+div img{
+    border-left: 10px dotted black;
+    padding: 0 15px;
+    margin: 15px;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+nav {
+
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 5px;
+}
+
+nav a {
+    font-family: "Arial";
+    font-size: 18px;
+    color: black;
+    padding: 5px 10px;
+}
+
+
+main {
+    padding: 15px;
+}
+
+main p {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+    font-family: "Arial";
+    font-size: 20px;
+}
+
