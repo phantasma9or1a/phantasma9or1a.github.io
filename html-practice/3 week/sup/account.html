@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Моя семья – мой космос</title>
+        <link rel="stylesheet" href="css/account.css">
+    </head>
+
+    <body>
+        <!-- Шапка сайта -->
+        <header>
+            <div class="header-content">
+                <img class="main_logo" src="../design/main_logo.png" alt="Логотип">
+                <h1>Моя семья - мой космос</h1>
+
+                <nav> 
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">&#9776</label>
+
+                    <div class="navigation">
+                        <a href="../main/index.html">Главая</a>
+                        <a href="../main/index-light.html">Главая светлая</a>
+                        <a href="schedule.html">Расписание</a>
+                        <a href="competition.html">Конкурсы</a>
+                        <a href="#" class="logout-btn-mobile">Выйти</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+
+        <section class="account-section">
+            <div class="container">
+                <h1 class="account-title">Личный кабинет</h1>
+                
+                <div class="account-container">
+                    <!-- Блок профиля -->
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar" style="background-image: url('https://avatars.mds.yandex.net/i?id=9fa6f6a4d611d574d7c48f341208eeef-4598969-images-thumbs&n=13');">
+                            </div>
+                            <div class="profile-info">
+                                <h3>Пётр Осетров</h3>
+                                <p>Участник конкурсов</p>
+                            </div>
+                        </div>
+                        
+                        <div class="profile-details">
+                            <div class="detail-item">
+                                <div class="detail-label">Email</div>
+                                <div class="detail-value">rattal38@yopmail.com</div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Телефон</div>
+                                <div class="detail-value">+7 (228) 774-02-83 </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-label">Дата регистрации</div>
+                                <div class="detail-value">30.10.2023</div>
+                            </div>
+                            
+                            <a href="#" class="logout-btn">Выйти из аккаунта</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Форма записи на конкурсы -->
+                    <div class="booking-form">
+                        <h2 class="form-title">Запись на конкурс</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="competition" class="form-label">Конкурс:</label>
+                                <select id="competition" class="form-select" required>
+                                    <option value="">Выберите конкурс</option>
+                                    <option value="1">Создай свою планету</option>
+                                    <option value="2">Ракетостроители</option>
+                                    <option value="3">Космический костюм</option>
+                                    <option value="4">Звёздное путешествие</option>
+                                    <option value="5">Космический шифр</option>
+                                    <option value="6">Космическая кухня</option>
+                                    <option value="7">Истории из космоса</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="date" class="form-label">Дата:</label>
+                                <input type="text" id="date" class="form-input" value="8 июля 2024" readonly>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="time" class="form-label">Время:</label>
+                                    <select id="time" class="form-select" required>
+                                        <option value="">Выберите время</option>
+                                        <option value="9:00">9:00</option>
+                                        <option value="10:00">10:00</option>
+                                        <option value="11:00">11:00</option>
+                                        <option value="12:00">12:00</option>
+                                        <option value="13:00">13:00</option>
+                                        <option value="14:00">14:00</option>
+                                        <option value="15:00">15:00</option>
+                                        <option value="16:00">16:00</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="people" class="form-label">Кол-во человек:</label>
+                                    <input type="number" id="people" class="form-input" min="1" max="10" value="1" required>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">Записаться</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Мои записи -->
+                    <div class="bookings-list">
+                        <h2 class="bookings-title">Мои записи</h2>
+                        
+                        <div class="booking-item">
+                            <div class="booking-info">
+                                <div class="booking-name">Создай свою планету</div>
+                                <div class="booking-meta">8 июля 2024, 9:00 • 2 участника</div>
+                            </div>
+                            <div class="booking-actions">
+                                <button class="cancel-btn">Отменить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-item">
+                            <div class="booking-info">
+                                <div class="booking-name">Ракетостроители</div>
+                                <div class="booking-meta">8 июля 2024, 13:00 • 4 участника</div>
+                            </div>
+                            <div class="booking-actions">
+                                <button class="cancel-btn">Отменить</button>
+                            </div>
+                        </div>
+                        
+                        <div class="booking-item">
+                            <div class="booking-info">
+                                <div class="booking-name">Звёздное путешествие</div>
+                                <div class="booking-meta">8 июля 2024, 16:00 • 3 участник</div>
+                            </div>
+                            <div class="booking-actions">
+                                <button class="cancel-btn">Отменить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Подвал сайта -->
+        <footer>
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <img src="https://gas-kvas.com/uploads/posts/2023-02/1676424607_gas-kvas-com-p-detskie-risunki-emblemi-15.png" alt="Логотип 'Моя семья – мой космос'">
+                            <span class="footer-logo-text">Моя семья – мой космос</span>
+                        </div>
+                        <div class="footer-contact">
+                            Телефон: <a href="tel:+74842234567">+7 (4842) 23-45-67</a>
+                        </div>
+                        <div class="footer-contact">
+                            Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Навигация</h3>
+                        <ul>
+                            <li><a href="../main/index.html">Главная</a></li>
+                            <li><a href="account.html">Личный кабинет</a></li>
+                            <li><a href="registration.html">Регистрация</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Конкурсы</h3>
+                        <ul>
+                            <li><a href="schedule.html">Расписание</a></li>
+                            <li><a href="competition.html">Описание конкурсов</a></li>
+                            <li><a href="404.html">Страница не найдена</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 "Моя семья – мой космос". Все права защищены.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

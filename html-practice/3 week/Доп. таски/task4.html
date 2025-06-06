@@ -1,0 +1,43 @@
+<html>
+
+    <head>
+        <title>Таск 4</title>
+        <meta charset="UTF-8">
+        <style>
+            .background {
+                width: 100vw;
+                height: 100vh;
+                position: relative;
+            }
+            
+            .character {
+                position: absolute;
+                width: 70px;
+                height: 450px;
+                left: 50px;
+                top: 50%;
+                transform: translateY(-50%);
+                background-image: url(https://avatars.mds.yandex.net/i?id=28322ab8c3ab253548ff762487961af454778591-5235137-images-thumbs&n=13);
+                background-repeat: no-repeat;
+                animation: run 1.7s steps(5) infinite, 
+                    move 5s linear infinite;
+            }
+            
+            @keyframes run {
+                from { background-position: 0 0; }
+                to { background-position: -300px 0; }
+            }
+            
+            @keyframes move {
+                from { left: -50px; }
+                to { left: calc(100%); }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <div class="character"></div>
+        </div>
+    </body>
+
+</html>

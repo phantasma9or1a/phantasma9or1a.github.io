@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Моя семья - мой космос</title>
+        <link rel="stylesheet" href="css/for_index.css">
+    </head>
+
+    <body>
+        <!-- Шапка сайта -->
+        <header>
+            <div class="header-content">
+                <img class="main_logo" src="../design/main_logo.png" alt="Логотип">
+                <h1>Моя семья - мой космос</h1>
+
+                <nav> 
+                <input type="checkbox" id="menu-toggle" />
+                <label for="menu-toggle" class="hamburger">&#9776</label>
+
+                    <div class="navigation">
+                        <a href="../sup/registration.html">Регистрация</a>
+                        <a href="#log-in">Авторизация</a>
+                        <a href="../sup/account.html">Личный кабинет</a>
+                        <a href="#about">О нас</a>
+                        <a href="#competitions">Конкурсы</a>
+                        <a href="#search">Поиск</a>
+                        <a href="#footer">Контакты</a>
+                        <a href="index-light.html">Светлая тема</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+        <!-- Блок приветствия -->
+        <section class="greeting-section">
+            <div class="container">
+                <div class="greeting-container">
+                    <h2 class="greeting-title">Приветствие от организаторов</h2>
+                    <div class="greeting-video">
+                        <iframe src="https://vkvideo.ru/video_ext.php?oid=-473362&id=456283321&hash=2d187ee40f99511f" width="640" height="360" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок для авторизации -->
+        <section class="auth-section" id="log-in">
+            <div class="container">
+                <div class="auth-container">
+                    <h2 class="auth-title">Авторизация</h2>
+                    <form class="auth-form">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Введите ваш email">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Пароль</label>
+                            <input type="password" id="password" placeholder="Введите ваш пароль">
+                        </div>
+                        <div class="auth-actions">
+                            <a href="#" class="auth-link">Забыли пароль?</a>
+                            <button type="submit" class="auth-button">Войти</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок информации "О нас" -->
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=ca023677c96682a7c07bcd034169f4e55bb116cb-10701575-images-thumbs&n=13');"></div>
+                    <div class="about-content">
+                        <h2 class="about-title">О нашем проекте</h2>
+                        <p class="about-text">Проект «Моя семья – мой космос» направлен на укрепление семейных ценностей через совместное творчество и участие в интересных конкурсах.</p>
+                        <p class="about-text">Мы убеждены, что каждая семья — это уникальная вселенная с собственными традициями, историями и особенностями. Наши мероприятия помогают семьям раскрыть творческий потенциал и создать яркие, запоминающиеся моменты.</p>
+                        <p class="about-text">С 2018 года мы организовали более 100 событий, в которых приняли участие тысячи семей со всей страны. Мы стремимся вдохновлять семьи на совместное развитие и поддерживать теплые отношения между поколениями.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок слайдера конкурсов -->
+        <section class="slider-section">
+            <div class="container">
+                <h2 class="slider-title">Популярные конкурсы</h2>
+                <div class="slider-container">
+                    <div class="slider">
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=e6a145f8e9e30712a79928536d5299f08b552e66-4076180-images-thumbs&n=13');">
+                                    <button class="prev" href="#">&#10094;</button>
+                                    <button class="next" href="#">&#10095;</button>
+                                </div>
+                                <div class="slide-details">
+                                    <h3>Создай свою планету</h3>
+                                    <p class="slide-description">Участники рисуют и моделируют свою уникальную планету с описанием её особенностей, жителей и природных условий чтобы получить приз.</p>
+                                    <div class="slide-rating">
+                                        <span class="stars">★★★★★</span>
+                                        <span>4.9/5</span>
+                                    </div>
+                                    <a href="../sup/competition.html" class="slide-button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="slide-content">
+                                <div class="slide-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=423d5564af489a4ba302995d8419e5d81aa5ac8c-8182507-images-thumbs&n=13');">
+                                    <button class="prev" href="#">&#10094;</button>
+                                    <button class="next" href="#">&#10095;</button>
+                                </div>
+                                <div class="slide-details">
+                                    <h3>Ракетостроители</h3>
+                                    <p class="slide-description"> Семьи соревнуются в создании и запуске самодельных ракет из безопасных материалов.</p>
+                                    <div class="slide-rating">
+                                        <span class="stars">★★★★☆</span>
+                                        <span>4.4/5</span>
+                                    </div>
+                                    <a href="../sup/competition.html" class="slide-button">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-controls">
+                        <div class="slider-dots">
+                            <div class="dot active"></div>
+                            <div class="dot"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок для поля поиска -->
+        <section class="search-section" id="search">
+            <div class="container">
+                <div class="search-container">
+                    <h2 class="search-title">Поиск конкурсов</h2>
+                    <form class="search-form">
+                        <input type="text" class="search-input" placeholder="Введите название конкурса...">
+                        <button type="submit" class="search-button">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок всех конкурсов -->
+        <section class="competitions-section" id="competitions">
+            <div class="container">
+                <h2 class="competitions-title">Наши конкурсы</h2>
+                <div class="competitions-grid">
+                    <div class="competition-card">
+                        <div class="competition-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=6ef809350ad4b028c943589f11625dcad29e4fac-9271342-images-thumbs&n=13');"></div>
+                        <div class="competition-details">
+                            <h3 class="competition-name">Космический костюм</h3>
+                            <p class="competition-description">Конкурс на лучший семейный костюм астронавтов или инопланетян, созданный своими руками из подручных материалов.</p>
+                            <div class="competition-meta">
+                                <span>Участников: 152</span>
+                                <span>Рейтинг: 4.6</span>
+                            </div>
+                            <a href="competition.html" class="competition-button">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="competition-card">
+                        <div class="competition-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=4369d919289fe52530af4d2220246b2d4d2d5ab3-4590062-images-thumbs&n=13');"></div>
+                        <div class="competition-details">
+                            <h3 class="competition-name">Звёздное путешествие</h3>
+                            <p class="competition-description">Очень увлекательная интерактивная викторина с вопросами о космосе, планетах и звёздах для всей семьи.</p>
+                            <div class="competition-meta">
+                                <span>Участников: 187</span>
+                                <span>Рейтинг: 4.7</span>
+                            </div>
+                            <a href="competition.html" class="competition-button">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="competition-card">
+                        <div class="competition-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=20eca90a7f24bdb2cf011956935e4cc2f1312eb5-12378875-images-thumbs&n=13');"></div>
+                        <div class="competition-details">
+                            <h3 class="competition-name">Космический шифр</h3>
+                            <p class="competition-description">Конкурс на разгадку загадок, связанных с космосом, где команды соревнуются в скорости и сообразительности.</p>
+                            <div class="competition-meta">
+                                <span>Участников: 161</span>
+                                <span>Рейтинг: 4.7</span>
+                            </div>
+                            <a href="competition.html" class="competition-button">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="competition-card">
+                        <div class="competition-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=a66d9b24e10e17c288f4c2d05c484df4656968cd-4284141-images-thumbs&n=13');"></div>
+                        <div class="competition-details">
+                            <h3 class="competition-name">Космическая кухня</h3>
+                            <p class="competition-description">Приготовьте блюдо, вдохновленное космосом, придумайте историю его создания и поделитесь рецептом.</p>
+                            <div class="competition-meta">
+                                <span>Участников: 242</span>
+                                <span>Рейтинг: 4.6</span>
+                            </div>
+                            <a href="competition.html" class="competition-button">Участвовать</a>
+                        </div>
+                    </div>
+                    <div class="competition-card">
+                        <div class="competition-image" style="background-image: url('https://avatars.mds.yandex.net/i?id=af58356776720c1b8b2b30778e78746ce3f42891-5141058-images-thumbs&n=13');"></div>
+                        <div class="competition-details">
+                            <h3 class="competition-name">Истории из космоса</h3>
+                            <p class="competition-description">Семьи создают и представляют короткие рассказы или сценки о приключениях в космосе.</p>
+                            <div class="competition-meta">
+                                <span>Участников: 138</span>
+                                <span>Рейтинг: 4.5</span>
+                            </div>
+                            <a href="competition.html" class="competition-button">Участвовать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок для отзывов -->
+        <section class="reviews-section">
+            <div class="container">
+                <h2 class="reviews-title">Отзывы участников</h2>
+                <div class="reviews-slider">
+                    <button class="prev-review" href="#">&#10094;</button>
+                    <button class="next-review" href="#">&#10095;</button>
+                    <div class="reviews-track">
+                        <div class="review">
+                            <div class="review-content">
+                                <div class="review-header">
+                                    <div class="review-avatar" style="background-image: url('https://cdn0.iconfinder.com/data/icons/people-67/96/p_family-1024.png');"></div>
+                                    <div>
+                                        <div class="review-author">Семья Шуриковых</div>
+                                        <div class="review-date">21 апреля 2024</div>
+                                    </div>
+                                </div>
+                                <p class="review-text">"Нашей семье очень понравился конкурс «Создай свою планету»! Это было не только весело, но и очень творчески. Отличный способ провести время вместе и почувствовать себя настоящими астронавтами!"</p>
+                                <a href="competition.html" class="review-link">Посмотреть конкурс</a>
+                            </div>
+                        </div>
+                        <div class="review">
+                            <div class="review-content">
+                                <div class="review-header">
+                                    <div class="review-avatar" style="background-image: url('avatar2.jpg');"></div>
+                                    <div>
+                                        <div class="review-author">Семья Павловых</div>
+                                        <div class="review-date">5 июня 2024</div>
+                                    </div>
+                                </div>
+                                <p class="review-text">"«Конкурс «Космическая кухня» стал настоящим открытием для нашей семьи. Готовить «космические» блюда было увлекательно и весело, а результат — вкусным и необычным! Получили массу позитивных эмоций!"</p>
+                                <a href="competition.html" class="review-link">Посмотреть конкурс</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-dots">
+                        <div class="reviews-dot active"></div>
+                        <div class="reviews-dot"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Блок для формы подписки -->
+        <section class="subscribe-section">
+            <div class="container">
+                <div class="subscribe-container">
+                    <h2 class="subscribe-title">Подписаться на новости</h2>
+                    <form class="subscribe-form">
+                        <div class="form-group">
+                            <label for="subscribe-email">Email</label>
+                            <input type="email" id="subscribe-email" placeholder="Введите ваш email">
+                        </div>
+                        <div class="subscribe-checkbox">
+                            <input type="checkbox" id="agree">
+                            <label for="agree">Я согласен на обработку персональных данных</label>
+                        </div>
+                        <button type="submit" class="subscribe-button">Подписаться</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Подвал сайта -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-container">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <img src="../design/main_logo.png" alt="Логотип">
+                            <span class="footer-logo-text">Моя семья – мой космос</span>
+                        </div>
+                        <div class="footer-contact">
+                            Телефон: <a href="phone:+74842234567">+7 (4842) 23-45-67</a>
+                        </div>
+                        <div class="footer-contact">
+                            Email: <a href="mailto:family@cosmos.ru">family@cosmos.ru</a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Навигация</h3>
+                        <ul>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="index-light.html">Главная-светлая</a></li>
+                            <li><a href="../sup/registration.html">Регистрация</a></li>
+                            <li><a href="../sup/competition.html">Конкурс</a></li>
+                            <li><a href="../sup/account.html">Личный кабинет</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h3>Дополнительно</h3>
+                        <ul>
+                            <li><a href="../sup/schedule.html">Расписание</a></li>
+                            <li><a href="../sup/404.html">Страница не найдена</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>2025© "Моя семья – мой космос". Не беспокойтесь ваши данные уже проданы.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

@@ -1,0 +1,57 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>таск 2</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                font-size: 16px;
+                width: 50%;
+                background-color: #ffb7b7;
+                padding: 10px;
+
+            }
+
+            .container * {
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <input type="text" placeholder="Текстовое поле">
+
+            <button>Кнопка</button>
+            
+            <select>
+                <option value="option1">Вариант 1</option>
+                <option value="option2">Вариант 2</option>
+                <option value="option3">Вариант 3</option>
+            </select>
+
+            <div>
+                <input type="radio" id="radio1" name="radio-group">
+                <label for="radio1">Вариант 1</label>
+            </div>
+            <div>
+                <input type="radio" id="radio2" name="radio-group">
+                <label for="radio2">Вариант 2</label>
+            </div>
+
+            <label style="padding-top: 15px;"><input type="checkbox">чекбокс</label>
+
+            <label><input type="radio">радиокнопка</label>
+
+            <input type="date">
+
+            <input type="range">
+            
+            <label style="text-align: center;">52/100</label>
+            <progress value="52" max="100"></progress>
+        </div>
+    </body>
+
+</html>
